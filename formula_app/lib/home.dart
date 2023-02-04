@@ -22,9 +22,17 @@ class _HomePageState extends State<HomePage> {
             onPressed: _toDensity,
             child: Text("Density"),
           ),
+          TextButton(
+            onPressed: _toSIConversions,
+            child: Text("SI Conversions"),
+          ),
         ],
       ),
     );
+  }
+
+  void _toSIConversions() {
+    Navigator.pushNamed(context, "/siconversions");
   }
 
   void _toN2L() {

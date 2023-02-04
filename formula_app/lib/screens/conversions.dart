@@ -12,6 +12,7 @@ class _SIConversionsPageState extends State<SIConversionsPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      alignment: Alignment.center,
       child: Text(
         "SI Conversions",
         style: TextStyle(
