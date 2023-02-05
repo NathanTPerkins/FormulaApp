@@ -15,7 +15,8 @@ class FormulaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoApp(
-      theme: CupertinoThemeData(
+      debugShowCheckedModeBanner: false,
+      theme: const CupertinoThemeData(
         primaryColor: CupertinoColors.activeGreen,
         scaffoldBackgroundColor: CupertinoColors.activeBlue,
       ),

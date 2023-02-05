@@ -11,12 +11,14 @@ class SIConversionsPage extends StatefulWidget {
 class _SIConversionsPageState extends State<SIConversionsPage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      alignment: Alignment.center,
-      child: Text(
-        "SI Conversions",
-        style: TextStyle(
-          color: Colors.green,
+    return Scaffold(
+      body: Container(
+        alignment: Alignment.center,
+        child: Text(
+          "SI Conversions",
+          style: TextStyle(
+            color: Colors.green,
+          ),
         ),
       ),
     );
